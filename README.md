@@ -8,8 +8,14 @@ Buscando, encontre un proyecto en Python, creado por Laurent Coustet, Zehome en 
 
 Actualmente el script es compatible con Linux, *BSD y Windows y si quieren mas informacion sobre el script original, pueden encontrarlo en el enlace https://github.com/zehome/wiznetconfigurator.
 
-Haciendo las pruebas con el sistema, realmente la libreria es muy util, pero puede resultar engorrosa de utilizar, sobre todo para usuarios noveles, por lo que considero que avanzar en la construccion de una interfaz grafica puede resultar util.
+Haciendo las pruebas con el sistema, realmente la libreria es muy util, pero puede resultar engorrosa de utilizar, sobre todo para usuarios noveles, por lo que considero que avanzar en la construccion de una interfaz grafica puede resultar util, a parte que la implementacion no es del todo mi gusto.
 
 # Mis pretensiones.
 
-La idea es avanzar, a mi ritmo que es muy lento, en construir una interfaz grafica, mejorar la calidad del script para terminar de implementar todas las instrucciones del equipo y reducir el alcance especificamente a equipos WIZnet WIZ110SR y tal vez crear instaladores. Quizas haya mas posibilidades de crear codigo y compartirlo, eso esta por verse.
+La idea es avanzar, a mi ritmo que es muy lento, en construir una interfaz grafica, mejorar la calidad del script para terminar de implementar todas las instrucciones del equipo, aunque usare el script de Zehome como inspiracion, realmente pienso modificarlo mucho para ajustarse un poco mas a mi estilo y, adicionalmente buscare reducir el alcance especificamente a equipos WIZnet WIZ110SR, como una idea complementaria tal vez crear instaladores para facilitar su despliegue en todas las plataformas.
+
+Quizas haya mas posibilidades de crear codigo y compartirlo, eso esta por verse.
+
+# Licenciamiento.
+
+Por ahora soy novel en el tema de licenciamiento, pero tengo la intencion de liberarlo para uso publico, de la misma forma que WIZnet ha liberado el codigo de su herramienta de configuracion. Pero basicamente puede usarse como se les antoje, y el credito por la obra nunca estara de mas.
