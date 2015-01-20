@@ -20,16 +20,13 @@ WIZNET_PARITY = {0x00: "none", 0x01: "odd", 0x02: "even"}
 WIZNET_FLOWCONTROL = {0x00: "none", 0x01: "xon/xoff", 0x02: "ctr/rts"}
 WIZNET_IPCONFIGMODE = {0x00: "static", 0x01: "dhcp", 0x02: "pppoe"}
 WIZNET_PROTOCOL = {0x00: "tcp", 0x01: "udp"}
-WIZNET_BAUDRATES = {
-    0xA0: 1200, 0xF4: 9600,  0xFE: 57600,
-    0xD0: 2400, 0xFA: 19200, 0xFF: 115200,
-    0xE8: 4800, 0xFD: 38400, 0xBB: 230400,
+WIZNET_BAUDRATES = {0xA0: 1200, 0xF4: 9600, 0xFE: 57600, 0xD0: 2400, 
+                    0xFA: 19200, 0xFF: 115200, 0xE8: 4800, 0xFD: 38400, 
+                    0xBB: 230400,
 }
-
 
 def hexdump(msg):
     return ' '.join(["%02x" % (ord(c),) for c in msg])
-
 
 class S2E(object):
     """Represents a wiznet device"""
