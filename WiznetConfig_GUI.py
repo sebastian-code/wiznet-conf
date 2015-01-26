@@ -17,11 +17,21 @@ class WiznetConfig_GUI(wx.Frame):
         wx.Frame.__init__(self, *args, **kwds)
         self.ltbWizList = wx.ListBox(self, wx.ID_ANY, choices=[])
         self.lbtStatus = wx.ListBox(self, wx.ID_ANY, choices=[])
-        self.btnSearch = wx.BitmapButton(self, wx.ID_ANY, wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/zoom77.png", wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
-        self.btnSetup_copy = wx.BitmapButton(self, wx.ID_ANY, wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/equalizer3.png", wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
-        self.btnPing_copy = wx.BitmapButton(self, wx.ID_ANY, wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/check61.png", wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
-        self.btnUpload_copy = wx.BitmapButton(self, wx.ID_ANY, wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/uparrow15.png", wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
-        self.btnExit = wx.BitmapButton(self, wx.ID_ANY, wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/power18.png", wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
+        self.btnSearch = wx.BitmapButton(self, wx.ID_ANY, 
+            wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/zoom77.png", 
+                wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
+        self.btnSetup_copy = wx.BitmapButton(self, wx.ID_ANY, 
+            wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/equalizer3.png", 
+                wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
+        self.btnPing_copy = wx.BitmapButton(self, wx.ID_ANY, 
+            wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/check61.png", 
+                wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
+        self.btnUpload_copy = wx.BitmapButton(self, wx.ID_ANY, 
+            wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/uparrow15.png", 
+                wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
+        self.btnExit = wx.BitmapButton(self, wx.ID_ANY, 
+            wx.Bitmap("/home/maestro/Workspace/wiznet_conf/icons/power18.png", 
+                wx.BITMAP_TYPE_ANY), style=wx.NO_BORDER)
 
         self.__set_properties()
         self.__do_layout()
