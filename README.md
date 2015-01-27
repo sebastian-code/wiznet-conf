@@ -19,3 +19,7 @@ Quizas haya mas posibilidades de crear codigo y compartirlo, eso esta por verse.
 # Licenciamiento.
 
 Por ahora soy novel en el tema de licenciamiento, pero tengo la intencion de liberarlo para uso publico, de la misma forma que WIZnet ha liberado el codigo de su herramienta de configuracion. Pero basicamente puede usarse como se les antoje, y el credito por la obra nunca estara de mas.
+
+# Creditos
+
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="http://www.unocha.org" title="OCHA">OCHA</a>, <a href="http://www.simpleicon.com" title="SimpleIcon">SimpleIcon</a>, <a href="http://graphberry.com" title="GraphBerry">GraphBerry</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
